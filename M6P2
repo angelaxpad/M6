@@ -10,7 +10,7 @@ else:
         if item == 80 or item ==70
             unitcost = 3.00
         else:
-            unitprice = 5.00
+            unitcost = 5.00
 
 total = quantity * unitcost 
 
