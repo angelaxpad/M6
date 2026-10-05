@@ -1,0 +1,19 @@
+tickets = int(input("Enter the number of concert tickets: "))
+
+if tickets >= 25:
+    price = 50.00
+else:
+    if tickets >= 10 and <= 24:
+        price = 60.00
+    else:
+        if tickets >= 5 and <=9:
+            price = 70.00
+        else:
+            if tickets <=5:
+                price = 75.00
+
+cost = tickets * price
+
+print(f("Number of tickets: {tickets}")
+print(f(Price per ticket: ${price: .2f}")
+print(f(Total cost: ${total: .2f}")
