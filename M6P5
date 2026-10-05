@@ -5,7 +5,7 @@ joblevel = int(input("Enter job level: "))
 if joblevel >= 10:
     bonusrate = 0.25
 else:
-    if joblevel >=5 and <=9:
+    if joblevel >=5:
         bonusrate = 0.20
     else:
         bonusrate = 0.10
