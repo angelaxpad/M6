@@ -1,0 +1,19 @@
+item = int(input("Enter the part number: "))
+quantity = int(input("Enter the quantity: "))
+
+if item == 10 or item == 55:
+    unitcost = 1.00
+else:
+    if item == 99:
+        unitcost = 2.00
+    else:
+        if item == 80 or item ==70
+            unitcost = 3.00
+        else:
+            unitprice = 5.00
+
+total = quantity * unitcost 
+
+print(f"Part number: {item})"
+print(f"Cost per unit: ${unitcost: .2f})"
+print(f"Total cost: ${total: .2f})"
