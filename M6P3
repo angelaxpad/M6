@@ -1,0 +1,25 @@
+principle = float(input("Enter the principle amount: "))
+year = int(input("Enter the ear to maturity: "))
+
+if principle > 100000:
+    if year == 5:
+        interestrate = 0.06
+    else:
+        interestrate = 0.02
+else:
+    if principle >= 50000 and principle <=100000
+        if year == 10:
+            interestrate = 0.05
+        else:
+            if year == 5:
+                interestrate = 0.04
+            else:
+                interestrate = 0.02
+    else:
+        interestrate = 0.02
+
+interes = principle * interestrate
+
+print(f"Principle: ${priciple: .2f}")
+print(f"Interest rate: {interestrate: .2%}")
+print(f"Interest amount for firt year: ${interest: .2f}")
