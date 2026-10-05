@@ -1,4 +1,4 @@
-latname = input("Enter employee last name: ")
+lastname = input("Enter employee last name: ")
 salary = float(input("Enter salary: "))
 joblevel = int(input("Enter job level: "))
 
